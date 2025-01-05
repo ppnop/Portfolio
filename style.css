@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.ecran{
+    width: 100%;
+    height: 100vh;
+    background-image: url(assets/version\ finale.png);
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+}
+
+.carte{
+    width: 90%;
+    max-width: 440px;
+    color: white;
+    text-align: center;
+    padding:  50px 30px;
+    border: 1px solid rgb(255,255 ,255,0.3);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgb(97, 91, 91);
+    backdrop-filter: blur(5px);
+}
+
+.carte img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.carte h2{
+    font-size: 50px;
+    font-weight: 600px;
+    margin-top: 20px;
+}
+
+.carte p{
+    font-size: 20px;
+    margin: auto;
+    max-width: 330px;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    box-shadow: 0px 0px 15px #00000027;
+    padding: 15px 10px;
+    border-radius: 5em;
+    margin-top: 100px;
+  }
+  
+  .social-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 4px #00000027;
+    transition: 0.3s;
+  }
+  
+  .social-button:hover {
+    background-color: #f2f2f2;
+    box-shadow: 0px 0px 6px 3px #00000027;
+  }
+  
+  .social-buttons svg {
+    transition: 0.3s;
+    height: 20px;
+  }
+  
+  .github {
+    background-color: #333;
+  }
+  
+  .github svg {
+    width: 25px;
+    height: 25px;
+    fill: #f2f2f2;
+  }
+  
+  .github:hover svg {
+    fill: #333;
+  }
+  
+  .linkedin {
+    background-color: #0077b5;
+  }
+  
+  .linkedin svg {
+    fill: #f2f2f2;
+  }
+  
+  .linkedin:hover svg {
+    fill: #0077b5;
+  }
+
+
+  .root-me {
+    background-color: #000000;
+  }
+  
+  .root-me svg {
+    width: 30px;
+    height: 30px;
+    fill: #ffffff;
+  }
+  
+  .root-me:hover svg {
+    fill: #000000;
+  }
